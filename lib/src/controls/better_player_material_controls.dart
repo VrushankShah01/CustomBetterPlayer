@@ -601,7 +601,7 @@ class _BetterPlayerMaterialControlsState
   Widget _buildLoadingWidget() {
     return CircularProgressIndicator(
       valueColor:
-          AlwaysStoppedAnimation<Color>(_controlsConfiguration.controlBarColor),
+          AlwaysStoppedAnimation<Color>(Colors.white),
     );
   }
 }
